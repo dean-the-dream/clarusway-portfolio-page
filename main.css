@@ -4,62 +4,64 @@
     box-sizing: border-box;
 }
 
-body {
+
+  body#index {
     text-align: center;
     font-size: large;
     color: #333333
 }
 
-header{
+body#index header{
     background-color: rgb(226, 223, 223)
 }
 
-p {
+body#index p {
     width: 33%;
     margin: auto;
 }
 
-ul {
+body#index ul {
     width: 25%;
     margin: auto;
 }
 
-li{
+body#index li{
     float: right;
     list-style: none;
     width: 25%
 }
 
-.clear-float {
+body#index .clear-float {
     clear: both;
 }
 
-ul li a img {
+body#index ul li a img {
     height: 50px;
 }
 
-section#services {
+body#index section#services {
     background-color: #ddedff;
 }
 
-a {
+body#index a {
     color: white;
     text-decoration: none;
 }
-section#services a{
+body#index section#services a{
     background-color: #1e90ff;
 }
 
 
-section#about-me {
+body#index section#about-me {
     background-color: #faebd7;
 }
 
-section#about-me a {
+body#index section#about-me a {
     background-color: #333333;
 }
 
-footer {
+body#index footer {
     background-color: #333333;
     color: white;
-}
+}  
+
